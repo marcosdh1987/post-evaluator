@@ -132,3 +132,31 @@ The third step is to build the model. The notebook is available in the `notebook
 
 - open the notebook `notebooks/03-Model-Building.ipynb`
 
+The data is split into training, test, and validation sets. The training set is used to train the model, the test set is used to evaluate the model, and the validation set is used to evaluate the model after it has been deployed.
+
+Define 6 models:
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Gradient Boosting
+- Support Vector Machine (SVM)
+- XGBoost
+
+run with predeterminated parameters and compare the results:
+
+![Model](./src/data/img/models.png)
+
+ROC comparison:
+
+![Roc](./src/data/img/roc.png)
+
+next step is to optimize the parameters of the models using GridSearchCV
+
+The best parameters are:
+
+![Best](./src/data/img/best.png)
+
+The model is trained with the best parameters and the results are:
+
+![Results](./src/data/img/results.png)
