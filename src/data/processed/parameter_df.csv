@@ -1,0 +1,2 @@
+,Model,Best Parameters,Best Score
+0,Decision Tree,"{'criterion': 'entropy', 'max_depth': 8, 'min_samples_leaf': 1, 'min_samples_split': 4}",0.6964470121792775
