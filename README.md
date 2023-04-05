@@ -155,8 +155,9 @@ next step is to optimize the parameters of the models using GridSearchCV
 
 The best parameters are:
 
-![Best](./src/data/img/best.png)
+![Best](./src/data/img/best_params.png)
 
 The model is trained with the best parameters and the results are:
 
-![Results](./src/data/img/results.png)
+![Results](./src/data/img/best_roc.png)
+![Results](./src/data/img/best_conf.png)
