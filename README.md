@@ -6,7 +6,7 @@ This repository contains the code for the example case.
 
 A case is raised to evaluate internet postings, based on certain input parameters, it is intended to build a model that can predict if a posting will be successful or not, for this there is a dataset of postings and their number of views.
 
-The objective variable is related to the number of visits to the post, if a post receives more than 2000 visits it is considered successful, otherwise it will be considered non-successful.
+The objective variable is related to the number of visits to the post, if a post receives more than 1200 visits it is considered successful, otherwise it will be considered non-successful.
 
 The practical activity is carried out in python.
 
@@ -72,7 +72,7 @@ Histograms: Histograms are graphs that represent the distribution of numerical d
 
 Boxplots: Boxplots are graphs that represent the distribution of numerical data by plotting quartiles. A boxplot shows the median (the value that divides the sample into two equal parts), the interquartile range (the range of values between the first and third quartiles), and any outliers that fall outside this range.
 
-![histo_boxplot](./src/data/img/histo_boxplot.png)
+![histo_boxplot](./src/data/img/eda_histo_boxplot.png)
 
 Correlation: Correlation is a statistical measure that indicates the strength and direction of the relationship between two numerical variables. Correlation can be positive, negative, or neutral, and ranges in strength from -1 (perfectly negative correlation) to 1 (perfectly positive correlation).
 
@@ -90,7 +90,7 @@ Bar charts: Bar charts are a common way to visualize the distribution of categor
 
 When analyzing the target variable in a binary classification problem, it is important to consider the distribution of the variable's values, as this can indicate a possible class imbalance.
 
-![Target](./src/data/img/target.png)
+![Target](./src/data/img/eda_target.png)
 
 
 ## 2 - Data Processing into Jupyter Notebook

@@ -1,3 +1,4 @@
 ,Model,Best Parameters,Best Score
-0,Random Forest,"{'criterion': 'entropy', 'max_depth': 50, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 500}",0.7457886773790664
-1,Gradient Boosting,"{'learning_rate': 0.1, 'max_depth': 20, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 500}",0.7455145807662971
+0,Random Forest,"{'criterion': 'entropy', 'max_depth': 50, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 500}",0.7026429664165514
+1,Gradient Boosting,"{'learning_rate': 0.1, 'max_depth': 70, 'min_samples_leaf': 3, 'min_samples_split': 6, 'n_estimators': 500}",0.695297692764
+2,XGBoost,"{'colsample_bytree': 0.8, 'gamma': 0.5, 'learning_rate': 0.01, 'max_depth': 10, 'min_child_weight': 1, 'n_estimators': 500, 'reg_alpha': 0.01, 'reg_lambda': 1, 'subsample': 0.8}",0.7039693409235188
