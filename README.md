@@ -12,8 +12,16 @@ The practical activity is carried out in python.
 
 ## Prerequisites
 
+You need to have installed or use the requirements.txt file to install the necessary libraries.
+
 - Python 3.9
 - Jupyter Notebook
+- Pandas
+- Numpy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
 
 
 ## 1 - Exploratory Data Analysis into Jupyter Notebook
@@ -157,7 +165,65 @@ The best parameters are:
 
 ![Best](./src/data/img/best_params.png)
 
-The model is trained with the best parameters and the results are:
+## 4 - Model Inference Jupyter Notebook
+
+The third step is to build the model. The notebook is available in the `notebooks` folder.
+
+- open the notebook `notebooks/04-Model-Predictions.ipynb`
+
+By loading the trained model and the test dataset, an inference is made on data unknown to it. The results are evaluated by observing the ROC curve and its confusion matrix.
+
+The model results for the test dataset are:
+
+- Accuracy:  0.7088772845953003
+- Recall:  0.7088772845953003
+- Specificity:  0.7088772845953003
+- False Positive Rate:  0.2911227154046997
+- Precision:  0.7102103647293903
+- F1 Score:  0.708415002242561
+
+- ROC Curve
 
 ![Results](./src/data/img/best_roc.png)
+
+- Confusion Matrix
+
 ![Results](./src/data/img/best_conf.png)
+
+
+## References: 
+
+@article{scikit-learn,
+ title={Scikit-learn: Machine Learning in {P}ython},
+ author={Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V.
+         and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P.
+         and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and
+         Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.},
+ journal={Journal of Machine Learning Research},
+ volume={12},
+ pages={2825--2830},
+ year={2011}
+}
+
+@InProceedings{ mckinney-proc-scipy-2010,
+  author    = { {W}es {M}c{K}inney },
+  title     = { {D}ata {S}tructures for {S}tatistical {C}omputing in {P}ython },
+  booktitle = { {P}roceedings of the 9th {P}ython in {S}cience {C}onference },
+  pages     = { 56 - 61 },
+  year      = { 2010 },
+  editor    = { {S}t\'efan van der {W}alt and {J}arrod {M}illman },
+  doi       = { 10.25080/Majora-92bf1922-00a }
+}
+
+@article{matplotlib,
+ title={Matplotlib: A 2D graphics environment},
+ author={John D. Hunter},
+ journal={Computing in Science \& Engineering},
+ volume={9},
+ number={3},
+ pages={90--95},
+ year={2007},
+ doi={10.1109/MCSE.2007.55},
+ url={https://doi.org/10.1109/MCSE.2007.55}
+}
+
